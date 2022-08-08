@@ -1,0 +1,108 @@
+<?php
+
+// Copyright (c) DeachSword. Licensed under the GNU Affero General Public License v3.0.
+// See the LICENCE file in the repository root for full licence text.
+
+return [
+    'welcome' => 'Welcome to our application!',
+
+    // Nav bar
+    'nav_home' => 'Home',
+    'nav_character' => 'Charas',
+    'nav_event' => 'Events',
+    'nav_music' => 'Musics',
+    'nav_gacha' => 'Gachas',
+    'nav_card' => 'Members',
+    'nav_player' => 'Player Search',
+
+    // Home
+    'home_title' => 'Home',
+    'home_event_title' => 'Events',
+    'home_event_prev' => 'Prev',
+    'home_event_next' => 'Next',
+    'home_event_nonext' => 'Break time ﾚ(ﾟ∀ﾟ;)ﾍ　ﾍ( ﾟ∀ﾟ;)ﾉ',
+    'home_event_nodata' => 'No Records Available (′゜ω。‵)',
+    'home_card_title' => 'Cards',
+    'home_card_coming' => 'Coming',
+    'home_card_nodata' => 'No Records Available ԅ(¯﹃¯ԅ)',
+    'home_music_title' => 'Musics',
+    'home_music_coming' => 'Coming',
+    'home_music_nodata' => 'No Records Available (╥﹏╥)',
+    'home_loginbonus_title' => 'Login-Bonus',
+    'home_loginbonus_coming' => 'Coming',
+    'home_loginbonus_now' => 'Now',
+    'home_loginbonus_now_nodata' => 'WTF?! No Data!!! Σ(ﾟДﾟ；≡；ﾟдﾟ)',
+    'home_loginbonus_coming_nodata' => 'No Records Available (つ´ω`)つ',
+    'home_updated_log_title' => 'Updated Log',
+    'home_nodata' => 'No Data (;w;)',
+
+    // Chara
+    'chara-list_title' => 'Character List',
+
+    // Event
+    'event-list_title' => 'Event List',
+    'event-ranking_subTitle' => 'Event Rankings',
+    'event-list_now' => 'Now',
+    'event-list_coming' => 'Coming',
+    'event-list_over' => 'Outdated',
+    'event-list_no-event' => 'Record not found ━━━━(゜∀゜三゜∀゜)━━━━!!??',
+    'event_not_found' => 'Event not found!',
+    'event_unknown' => 'Unknown Event',
+    'event_ranking' => 'Rankings',
+    'event_ranking_title' => ':name Ranking:sub_name',
+
+    // Card
+    'card-list_title' => 'Member List',
+    'card-detail_subTitle' => 'Member Detail',
+    'card_link2detail' => 'Detail',
+    'card_filter-tool_settings-display' => 'Display Settings',
+    'card_filter-tool_settings-filter' => 'Filter',
+    'card_filter-tool_filter_rarity' => 'Rariry',
+    'card_filter-tool_filter_rarity-1' => '1★',
+    'card_filter-tool_filter_rarity-2' => '2★',
+    'card_filter-tool_filter_rarity-3' => '3★',
+    'card_filter-tool_filter_rarity-4' => '4★',
+    'card_filter-tool_filter_rarity-sp' => 'SP',
+    'card_filter-tool_filter_type' => 'Style',
+    'card_filter-tool_filter_djset' => 'Unit ',
+    'card_filter-tool_filter_name' => 'Name',
+    'card_filter-tool_settings-sort' => 'Sort',
+    'card_filter-tool_sort_types' => 'Types',
+    'card_filter-tool_sort_type-0' => 'Default',
+    'card_filter-tool_sort_type-5' => 'Rariry',
+    'card_filter-tool_sort_type-43' => 'Heart',
+    'card_filter-tool_sort_type-44' => 'Physical',
+    'card_filter-tool_sort_type-45' => 'Technical',
+    'card_filter-tool_sort_type-48' => 'Total Power',
+    'card_filter-tool_sort_type-101' => 'Fav-count',
+    'card_filter-tool_sort_sorting' => 'Sorting',
+    'card_filter-tool_sort_sort-up' => 'ASC',
+    'card_filter-tool_sort_sort-down' => 'DESC',
+    'card_filter-tool_result-count' => 'results',
+    'card-detail_lv' => 'Lv',
+    'card-detail_ability' => 'Ability',
+    'card-detail_ability-val' => 'Val.',
+    'card-detail_ability-h' => 'Heart',
+    'card-detail_ability-t' => 'Technical',
+    'card-detail_ability-p' => 'Physical',
+    'card-detail_ability-a' => 'Total Power',
+    'card-detail_ability-if-limit_break' => 'After limit break',
+    'card-detail_skill-recovery' => 'Recovery',
+    'card-detail_skill-recovery_desc' => 'Recovery :value HP',
+    'card-detail_skill-seconds' => 'Time limit',
+    'card-detail_skill-seconds_desc' => 'Skill effect duration :valuesec',
+    'card-detail_skill-score-1' => 'Score Up',
+    'card-detail_skill-score-1_desc' => 'Score Up :value%',
+    'card-detail_skill-score-2' => 'Perfect Score Up',
+    'card-detail_skill-score-2_desc' => 'Perfect Score Up :value%',
+    'card-detail_skill-combo' => 'Combo support',
+    'card-detail_skill-combo_desc' => ':value Combo support',
+    'card-detail_limit_break_label' => 'LB.:lv',
+    'card-detail_btn-img-helper' => 'Images',
+    'card-detail_btn-img-helper_title' => 'Images Helper',
+    'card-detail_btn-img-helper_desc' => "Only the loaded images are shown here. \nYou can change the member lv first to ensure that the Evolved Image are loaded",
+
+
+    // common
+    'fav-btn_card' => 'Favorite this member',
+];

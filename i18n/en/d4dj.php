@@ -5,6 +5,9 @@
 
 return [
     'welcome' => 'Welcome to our application!',
+    'web--prefix' => 'D4DJ EN Database',
+    'web--desc' => '《D4DJ Groovy Mix》ver.EN Database',
+    'game-server--name' => 'EN ver.',
 
     // Nav bar
     'nav_home' => 'Home',
@@ -51,8 +54,29 @@ return [
     'event_ranking' => 'Rankings',
     'event_ranking_title' => ':name Ranking:sub_name',
 
+    'event--type-bingo' => 'Bingo',
+    'event--type-medley' => 'Medley',
+    'event--type-poker' => 'Poker',
+    'event--type-raid' => 'Raid',
+    'event--type-slot' => 'Slot',
+    'event--type-growth' => 'Growth',
+
+
+    'event-info--not-start-yet' => 'Comming',
+    'event-info--start-now' => 'Now',
+    'event-info--ended' => 'Ended',
+    'event-info--event-start-date' => 'Start.T',
+    'event-info--event-close-date' => 'End  .T',
+    'event-info--ranking-close-date' => 'Ranking Close.T',
+    'event-info--ranking-final-display-date' => 'Ranking Final Display.T',
+    'event-info--result-announcement-date' => 'Final Result Display.T',
+    'event-info--is-fes-story' => 'Festival Story',
+
     // Card
     'card-list_title' => 'Member List',
+    'card-list_coming' => 'Coming',
+    'card-list_locked' => 'Locked',
+    'card-list_no-data' => 'No Data',
     'card-detail_subTitle' => 'Member Detail',
     'card_link2detail' => 'Detail',
     'card_filter-tool_settings-display' => 'Display Settings',
@@ -101,8 +125,13 @@ return [
     'card-detail_btn-img-helper' => 'Images',
     'card-detail_btn-img-helper_title' => 'Images Helper',
     'card-detail_btn-img-helper_desc' => "Only the loaded images are shown here. \nYou can change the member lv first to ensure that the Evolved Image are loaded",
+    'card-detail_btn-card_story' => 'Episode',
+
+    'card-div_not-yet' => 'Not Released',
+    'card-div_not-yet_time' => 'Expected to be released on :date.',
 
 
     // common
+    'msg-need_login' => "You need to loggin to continue accessing this contents",
     'fav-btn_card' => 'Favorite this member',
 ];

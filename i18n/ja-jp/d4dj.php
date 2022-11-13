@@ -5,12 +5,15 @@
 
 return [
     'welcome' => 'Welcome to our application!',
+    'web--prefix' => 'D4DJ JP Database',
+    'web--desc' => '《D4DJ Groovy Mix（グルミク）》ver.JP Database',
+    'game-server--name' => 'JP ver.',
 
     // Nav bar
     'nav_home' => 'メインページ',
     'nav_character' => 'キャラクター',
     'nav_event' => 'イベント',
-    'nav_music' => '音楽',
+    'nav_music' => '譜面',
     'nav_gacha' => 'ガチャ',
     'nav_card' => 'メンバー',
     'nav_player' => 'プレイヤー検索',
@@ -25,7 +28,7 @@ return [
     'home_card_title' => 'カード',
     'home_card_coming' => '近日公開',
     'home_card_nodata' => '記録なしԅ(¯﹃¯ԅ)',
-    'home_music_title' => '音楽',
+    'home_music_title' => '譜面',
     'home_music_coming' => '近日公開',
     'home_music_nodata' => '記録なし(╥﹏╥)',
     'home_loginbonus_title' => 'ログインボーナス',
@@ -51,10 +54,34 @@ return [
     'event_ranking' => 'ランキング',
     'event_ranking_title' => ':name ランキング:sub_name',
 
+    'event--type-bingo' => 'ビンゴ',
+    'event--type-medley' => 'メドレー',
+    'event--type-poker' => 'ポーカー',
+    'event--type-raid' => 'レイド',
+    'event--type-slot' => 'スロット',
+    'event--type-growth' => 'グロース',
+    'event--type-rave' => 'RAVE',
+
+    'event-info--not-start-yet' => '近日公開',
+    'event-info--start-now' => '進行中',
+    'event-info--ended' => '終了',
+    'event-info--event-start-date' => '開始日',
+    'event-info--event-close-date' => '終了日',
+    'event-info--ranking-close-date' => 'ランキング締め',
+    'event-info--ranking-final-display-date' => '最終ランキング表示',
+    'event-info--result-announcement-date' => '結果発表',
+    'event-info--is-fes-story' => 'フェスティバルストーリー',
+
     // Card
     'card-list_title' => 'メンバー一覧表',
+    'card-list_coming' => '近日公開',
+    'card-list_locked' => '使えない',
+    'card-list_no-data' => '記録なし',
+
     'card-detail_subTitle' => 'メンバー詳細',
+
     'card_link2detail' => '詳細',
+
     'card_filter-tool_settings-display' => '表示設定',
     'card_filter-tool_settings-filter' => 'フィルター',
     'card_filter-tool_filter_rarity' => 'レアリティ',
@@ -79,6 +106,7 @@ return [
     'card_filter-tool_sort_sort-up' => '昇順',
     'card_filter-tool_sort_sort-down' => '降順',
     'card_filter-tool_result-count' => '結果数',
+
     'card-detail_lv' => 'Lv',
     'card-detail_ability' => '能力値',
     'card-detail_ability-val' => '数値',
@@ -101,8 +129,44 @@ return [
     'card-detail_btn-img-helper' => '画像',
     'card-detail_btn-img-helper_title' => '画像ヘルパー',
     'card-detail_btn-img-helper_desc' => "読み込まれた画像のみがここに表示されます。  最初にメンバー lv を変更して、進化したイメージが確実にロードされるようにすることができます。",
+    'card-detail_btn-card_story' => 'Episode',
+
+    'card-div_not-yet' => 'Not Released',
+    'card-div_not-yet_time' => ':date 予定',
+
+
+    // Gacha
+    'gacha-list_title' => 'ガチャ一覧',
+    'gacha-detail_title-if-unkowner' => '未知のガチャ',
+    'gacha-detail_subTitle' => 'ガチャ情報',
+    'gacha-detail_draw-title' => 'ガチャオプション',
+    'gacha-detail_draw-res_all-title' => 'シミュレーションガチャ記録',
+    'gacha-detail_draw-labels_is-pickup' => '限定',
+    'gacha-detail_draw-labels_is-not-pickup' => '非限定',
+    'gacha-detail_draw-chart_globals-title' => 'シミュレーションガチャ情報',
+    'gacha-detail_draw-chart_pickup-title' => 'PickUp情報',
+
+
+    // Music
+    'music-list_title' => '譜面一覧',
+    'music-detail_title-not-found' => '未知の譜面',
+    'music-detail_subTitle' => '譜面情報',
+    'music-detail--chart-audio--preview-title' => 'プレビュー版',
+    'music-detail--chart-audio--full-title' => '完全版',
+    'music-detail--chart-reanking-title' => '譜面成績ランキング',
+    'music-detail--chart-reanking--table-field-player' => 'プレーヤー',
+    'music-detail--chart-reanking--table-field-score' => 'スコア',
+    'music-detail--chart-reanking--table-field-clear' => 'クリア',
+    'music-detail--chart-reanking--table-field-region' => 'サーバ',
+    'music-detail--chart-ranking--no-score' => 'まだスコアをアップロードしているプレーヤーはいません！',
+
+
+    // Player
+    'player-detail--chartClearInfo-title' => '譜面の進行状況',
+    'player-detail--chart-ranking--no-score' => 'このプレイヤーは、チャートのクリア記録をまだ開いていません!',
 
 
     // common
+    'msg-need_login' => "ログインする必要があります",
     'fav-btn_card' => 'このメンバーをお気に入りに登録する',
 ];
